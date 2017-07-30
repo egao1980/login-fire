@@ -9,19 +9,22 @@
     <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
     <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
 
-    <link rel="import" href="../login-fire.html">
+
     <link rel="import" href="../../polymerfire/firebase-app.html">
     <link rel="import" href="../../paper-dialog/paper-dialog.html">
+      <link rel="import" href="../login-fire.html">
 
-    <style is="custom-style" include="demo-pages-shared-styles">
-    </style>
+      <custom-style>
+          <style is="custom-style" include="demo-pages-shared-styles">
+          </style>
+      </custom-style>
   </head>
   <body>
 
-  <div>
+  <div class="vertical-section-container centered">
       <h3>login-fire Demo with all options</h3>
       <demo-snippet>
-        <template >
+        <template>
           <firebase-app
             name="narrowDemo"
             api-key="AIzaSyAhoCXxkY-ffNwA_7L7HIwBVpASYj1btNE"
